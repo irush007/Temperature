@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		965D7B2B188AFB4800197634 /* ConvertorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 965D7B29188AFB4800197634 /* ConvertorViewController.m */; };
+		965D7B2C188AFB4800197634 /* ConvertorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965D7B2A188AFB4800197634 /* ConvertorViewController.xib */; };
 		96B75EAA1888607200D0C071 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B75EA91888607200D0C071 /* UIKit.framework */; };
 		96B75EAC1888607200D0C071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B75EAB1888607200D0C071 /* Foundation.framework */; };
 		96B75EAE1888607200D0C071 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B75EAD1888607200D0C071 /* CoreGraphics.framework */; };
@@ -19,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		965D7B28188AFB4800197634 /* ConvertorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertorViewController.h; sourceTree = "<group>"; };
+		965D7B29188AFB4800197634 /* ConvertorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvertorViewController.m; sourceTree = "<group>"; };
+		965D7B2A188AFB4800197634 /* ConvertorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConvertorViewController.xib; sourceTree = "<group>"; };
 		96B75EA61888607200D0C071 /* Temperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B75EA91888607200D0C071 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96B75EAB1888607200D0C071 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -81,6 +86,9 @@
 				96B75EB81888607200D0C071 /* XYZAppDelegate.h */,
 				96B75EB91888607200D0C071 /* XYZAppDelegate.m */,
 				96B75EB01888607200D0C071 /* Supporting Files */,
+				965D7B28188AFB4800197634 /* ConvertorViewController.h */,
+				965D7B29188AFB4800197634 /* ConvertorViewController.m */,
+				965D7B2A188AFB4800197634 /* ConvertorViewController.xib */,
 			);
 			path = Temperature;
 			sourceTree = "<group>";
@@ -155,6 +163,7 @@
 				96B75EBC1888607200D0C071 /* Default.png in Resources */,
 				96B75EBE1888607200D0C071 /* Default@2x.png in Resources */,
 				96B75EC01888607200D0C071 /* Default-568h@2x.png in Resources */,
+				965D7B2C188AFB4800197634 /* ConvertorViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 			files = (
 				96B75EB61888607200D0C071 /* main.m in Sources */,
 				96B75EBA1888607200D0C071 /* XYZAppDelegate.m in Sources */,
+				965D7B2B188AFB4800197634 /* ConvertorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +291,7 @@
 				96B75EC51888607200D0C071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
